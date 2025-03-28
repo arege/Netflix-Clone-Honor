@@ -1,4 +1,7 @@
-const API_KEY = process.env.VITE_REACT_API_KEY;
+// import dotenv from 'dotenv';
+// dotenv.config();
+
+const API_KEY = import.meta.env.VITE_REACT_API_KEY;
 
 const requests = {
 	fetchTrending: `/trending/all/week?api_key=${API_KEY}&language=en-US`,
