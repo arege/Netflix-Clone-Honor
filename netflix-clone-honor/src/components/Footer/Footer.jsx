@@ -6,10 +6,12 @@ const Footer = () => {
   return (
     <footer className="footer">
       <div className="footer-links">
-        <a href="#">Audio Description</a>
-        <a href="#">Investor Relations</a>
+        <a href="#">FAQ</a>
+        <a href="#">Help Center</a>
+        <a href="#">Terms of Use</a>
         <a href="#">Privacy</a>
-        <a href="#">Contact Us</a>
+        <a href="#">Cookie Preferences</a>
+        <a href="#">Corporate Information</a>
       </div>
 
       <div className="footer-icons">
